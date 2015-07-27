@@ -39,7 +39,8 @@
       "browser": true
     },
     "globals": {
-      "ionic": true
+      "ionic": true,
+      "angular": true
     },
     "rules": {
       "strict": 0,
