@@ -15,7 +15,7 @@ angular.module('MyModule', ['pf-ion-mapref']);
 ```
 
 ```html
-<a pf-ion-mapref="51.053236,-114.095222" target="_blank">Open in Maps</a>
+<a pf-ion-mapref latitude="51.053236" longitude="-114.095222" target="_blank">Open in Maps</a>
 ```
 Will render your `href` set according to the platform you're on:
 * iOS: `maps://…`
