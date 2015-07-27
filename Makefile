@@ -24,14 +24,14 @@ test: node_modules
 lint: node_modules
 	@eslint lib/ test/
 
-$(dist): $(source) node_modules
+$(dist): $(source) all
 	@mkdir -p $(dir $@)
 	@browserify $(main) > $@
 
-$(dist.min): $(source) node_modules
+$(dist.min): $(source) all
 	@mkdir -p $(dir $@)
 	@browserify $(main) \
-		| uglifyjs -m -c sequences=true,dead_code=true,conditionals=true,booleans=true,unused=true,if_return=true,join_vars=true,drop_console=true \
+		| uglifyjs -m -c sequences=true,dead_code=true,conditionals=true,booleans=true,unused=true,if_return=true,join_vars=true \
 		> $@
 
 .PHONY: build

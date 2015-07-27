@@ -38,6 +38,9 @@
       "node": true,
       "browser": true
     },
+    "globals": {
+      "ionic": true
+    },
     "rules": {
       "strict": 0,
       "quotes": [
