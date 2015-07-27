@@ -1,0 +1,28 @@
+{
+  "name": "pf-ion-mapref",
+  "version": "1.0.0",
+  "authors": [
+    "PetroFeed Inc."
+  ],
+  "description": "Open in Maps href",
+  "main": "dist/pf-ion-mapref.min.js",
+  "keywords": [
+    "href",
+    "mapref",
+    "ionic",
+    "ion",
+    "maps",
+    "map",
+    "angular",
+    "ng"
+  ],
+  "license": "CC-BY-4.0",
+  "homepage": "https://github.com/PetroFeed/pf-ion-mapref#readme",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
