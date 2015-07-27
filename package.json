@@ -1,0 +1,49 @@
+{
+  "name": "pf-ion-mapref",
+  "version": "1.0.0",
+  "description": "Open in Maps href",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/PetroFeed/pf-ion-mapref.git"
+  },
+  "keywords": [
+    "href",
+    "mapref",
+    "ionic",
+    "ion",
+    "maps",
+    "map",
+    "angular",
+    "ng"
+  ],
+  "author": "PetroFeed Inc.",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/PetroFeed/pf-ion-mapref/issues"
+  },
+  "homepage": "https://github.com/PetroFeed/pf-ion-mapref#readme",
+  "devDependencies": {
+    "browserify": "^11.0.0",
+    "eslint": "^0.24.1",
+    "tap-dot": "^1.0.0",
+    "tape": "^4.0.1",
+    "uglify-js": "^2.4.24"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true,
+      "browser": true
+    },
+    "rules": {
+      "strict": 0,
+      "quotes": [
+        2,
+        "single"
+      ]
+    }
+  }
+}
